@@ -9980,11 +9980,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Data\\Vatan\\Learnings\\KevinDocxxx\\Old-asp-dotnet-core-oauth2-openid-connect-securing\\Old asp-dotnet-core-oauth2-openid-connect-securing\\02\\demos\\start-end\\src\\ImageGallery.Client\\ImageGallery.Client.csproj",
+      "projectUniqueName": "D:\\Data\\Vatan\\Learnings\\KevinDocxxx\\OldKevOAuthIS\\02\\demos\\start-end\\src\\ImageGallery.Client\\ImageGallery.Client.csproj",
       "projectName": "ImageGallery.Client",
-      "projectPath": "D:\\Data\\Vatan\\Learnings\\KevinDocxxx\\Old-asp-dotnet-core-oauth2-openid-connect-securing\\Old asp-dotnet-core-oauth2-openid-connect-securing\\02\\demos\\start-end\\src\\ImageGallery.Client\\ImageGallery.Client.csproj",
+      "projectPath": "D:\\Data\\Vatan\\Learnings\\KevinDocxxx\\OldKevOAuthIS\\02\\demos\\start-end\\src\\ImageGallery.Client\\ImageGallery.Client.csproj",
       "packagesPath": "C:\\Users\\z003d4ks\\.nuget\\packages\\",
-      "outputPath": "D:\\Data\\Vatan\\Learnings\\KevinDocxxx\\Old-asp-dotnet-core-oauth2-openid-connect-securing\\Old asp-dotnet-core-oauth2-openid-connect-securing\\02\\demos\\start-end\\src\\ImageGallery.Client\\obj\\",
+      "outputPath": "D:\\Data\\Vatan\\Learnings\\KevinDocxxx\\OldKevOAuthIS\\02\\demos\\start-end\\src\\ImageGallery.Client\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\z003d4ks\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -10001,8 +10001,8 @@
       "frameworks": {
         "netcoreapp1.1": {
           "projectReferences": {
-            "D:\\Data\\Vatan\\Learnings\\KevinDocxxx\\Old-asp-dotnet-core-oauth2-openid-connect-securing\\Old asp-dotnet-core-oauth2-openid-connect-securing\\02\\demos\\start-end\\src\\ImageGallery.Model\\ImageGallery.Model.csproj": {
-              "projectPath": "D:\\Data\\Vatan\\Learnings\\KevinDocxxx\\Old-asp-dotnet-core-oauth2-openid-connect-securing\\Old asp-dotnet-core-oauth2-openid-connect-securing\\02\\demos\\start-end\\src\\ImageGallery.Model\\ImageGallery.Model.csproj"
+            "D:\\Data\\Vatan\\Learnings\\KevinDocxxx\\OldKevOAuthIS\\02\\demos\\start-end\\src\\ImageGallery.Model\\ImageGallery.Model.csproj": {
+              "projectPath": "D:\\Data\\Vatan\\Learnings\\KevinDocxxx\\OldKevOAuthIS\\02\\demos\\start-end\\src\\ImageGallery.Model\\ImageGallery.Model.csproj"
             }
           }
         }
