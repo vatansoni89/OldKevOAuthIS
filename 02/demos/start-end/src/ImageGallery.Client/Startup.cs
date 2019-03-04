@@ -5,6 +5,12 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
 using Microsoft.AspNetCore.Http;
 using ImageGallery.Client.Services;
+using System.IdentityModel.Tokens.Jwt;
+using Microsoft.AspNetCore.Authentication.OpenIdConnect;
+using System.Security.Claims;
+using System.Threading.Tasks;
+using System.Linq;
+using Microsoft.AspNetCore.Authentication;
 
 /*
 microsoft.aspnetcore.authentication.cookies : 
@@ -74,6 +80,9 @@ namespace ImageGallery.Client
                 AuthenticationScheme = "Cookies"
             });
 
+            //subject id etc. will have the real mapping.
+            JwtSecurityTokenHandler.DefaultInboundClaimTypeMap.Clear();
+
             app.UseOpenIdConnectAuthentication(new OpenIdConnectOptions
             {
                 AuthenticationScheme = "oidc",
@@ -87,7 +96,38 @@ namespace ImageGallery.Client
                 SignInScheme = "Cookies",
                 SaveTokens = true,
                 ClientSecret = "secret",
-                GetClaimsFromUserInfoEndpoint = true 
+                GetClaimsFromUserInfoEndpoint = true,
+
+                Events = new OpenIdConnectEvents()
+                {
+                    OnTokenValidated = tokenValidatedContext =>
+                    {
+                        var identity = tokenValidatedContext.Ticket.Principal.Identity
+                            as ClaimsIdentity;
+
+                        var subjectClaim = identity.Claims.FirstOrDefault(z => z.Type == "sub");
+
+                        var newClaimsIdentity = new ClaimsIdentity(
+                          tokenValidatedContext.Ticket.AuthenticationScheme,
+                          "given_name",
+                          "role");
+
+                        newClaimsIdentity.AddClaim(subjectClaim);
+
+                        tokenValidatedContext.Ticket = new AuthenticationTicket(
+                            new ClaimsPrincipal(newClaimsIdentity),
+                            tokenValidatedContext.Ticket.Properties,
+                            tokenValidatedContext.Ticket.AuthenticationScheme);
+
+                        return Task.FromResult(0);
+                    },
+
+                    OnUserInformationReceived = userInformationReceivedContext =>
+                    {
+                        userInformationReceivedContext.User.Remove("address");
+                        return Task.FromResult(0);
+                    }
+                }
             });
 
 
