@@ -1,0 +1,14 @@
+D:\Data\Vatan\Learnings\KevinDocxxx\OldKevOAuthIS\02\demos\start-end\src\ImageGallery.Client\bin\Debug\netcoreapp1.1\ImageGallery.Client.deps.json
+D:\Data\Vatan\Learnings\KevinDocxxx\OldKevOAuthIS\02\demos\start-end\src\ImageGallery.Client\bin\Debug\netcoreapp1.1\ImageGallery.Client.runtimeconfig.json
+D:\Data\Vatan\Learnings\KevinDocxxx\OldKevOAuthIS\02\demos\start-end\src\ImageGallery.Client\bin\Debug\netcoreapp1.1\ImageGallery.Client.runtimeconfig.dev.json
+D:\Data\Vatan\Learnings\KevinDocxxx\OldKevOAuthIS\02\demos\start-end\src\ImageGallery.Client\bin\Debug\netcoreapp1.1\ImageGallery.Client.dll
+D:\Data\Vatan\Learnings\KevinDocxxx\OldKevOAuthIS\02\demos\start-end\src\ImageGallery.Client\bin\Debug\netcoreapp1.1\ImageGallery.Client.pdb
+D:\Data\Vatan\Learnings\KevinDocxxx\OldKevOAuthIS\02\demos\start-end\src\ImageGallery.Client\bin\Debug\netcoreapp1.1\ImageGallery.Model.dll
+D:\Data\Vatan\Learnings\KevinDocxxx\OldKevOAuthIS\02\demos\start-end\src\ImageGallery.Client\bin\Debug\netcoreapp1.1\ImageGallery.Model.pdb
+D:\Data\Vatan\Learnings\KevinDocxxx\OldKevOAuthIS\02\demos\start-end\src\ImageGallery.Client\obj\Debug\netcoreapp1.1\ImageGallery.Client.csprojAssemblyReference.cache
+D:\Data\Vatan\Learnings\KevinDocxxx\OldKevOAuthIS\02\demos\start-end\src\ImageGallery.Client\obj\Debug\netcoreapp1.1\ImageGallery.Client.csproj.CoreCompileInputs.cache
+D:\Data\Vatan\Learnings\KevinDocxxx\OldKevOAuthIS\02\demos\start-end\src\ImageGallery.Client\obj\Debug\netcoreapp1.1\ImageGallery.Client.AssemblyInfoInputs.cache
+D:\Data\Vatan\Learnings\KevinDocxxx\OldKevOAuthIS\02\demos\start-end\src\ImageGallery.Client\obj\Debug\netcoreapp1.1\ImageGallery.Client.AssemblyInfo.cs
+D:\Data\Vatan\Learnings\KevinDocxxx\OldKevOAuthIS\02\demos\start-end\src\ImageGallery.Client\obj\Debug\netcoreapp1.1\ImageGallery.Client.csproj.CopyComplete
+D:\Data\Vatan\Learnings\KevinDocxxx\OldKevOAuthIS\02\demos\start-end\src\ImageGallery.Client\obj\Debug\netcoreapp1.1\ImageGallery.Client.dll
+D:\Data\Vatan\Learnings\KevinDocxxx\OldKevOAuthIS\02\demos\start-end\src\ImageGallery.Client\obj\Debug\netcoreapp1.1\ImageGallery.Client.pdb
