@@ -6,6 +6,23 @@ using Microsoft.Extensions.Logging;
 using Microsoft.AspNetCore.Http;
 using ImageGallery.Client.Services;
 
+/*
+microsoft.aspnetcore.authentication.cookies : 
+
+It enables cookie based authentication.
+Once an Identity Token has been validated and transformed to a claims identity, it can be stored in an encrypted cookie which is
+then used on subsequent requests on the web app.
+*/
+
+/*
+microsoft.aspnetcore.authentication.openidconnect : 
+
+This middleware handles "creating the request to the authorization end point to toekn end point".
+Possible other request.it will handle validation and so on.
+Once a token has been validated, It's transformed into a claims identity which is used to sign into the application. And then the cookies middle =ware takes over on
+subsquesnt request.
+*/
+
 namespace ImageGallery.Client
 {
     public class Startup
@@ -51,7 +68,29 @@ namespace ImageGallery.Client
             {
                 app.UseExceptionHandler("/Shared/Error");
             }
-            
+
+            app.UseCookieAuthentication(new CookieAuthenticationOptions
+            {
+                AuthenticationScheme = "Cookies"
+            });
+
+            app.UseOpenIdConnectAuthentication(new OpenIdConnectOptions
+            {
+                AuthenticationScheme = "oidc",
+                Authority = "https://localhost:44370/",
+                RequireHttpsMetadata = true,
+                ClientId = "imagegalleryclient",
+                Scope = { "openid", "profile" },
+                ResponseType = "code id_token",
+                // CallbackPath = new PathString("...")
+                // SignedOutCallbackPath = new PathString("")
+                SignInScheme = "Cookies",
+                SaveTokens = true,
+                ClientSecret = "secret",
+                GetClaimsFromUserInfoEndpoint = true 
+            });
+
+
             app.UseStaticFiles();
 
             app.UseMvc(routes =>
