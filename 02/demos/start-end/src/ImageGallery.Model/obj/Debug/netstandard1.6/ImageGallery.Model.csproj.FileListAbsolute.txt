@@ -1,9 +1,0 @@
-D:\Data\Vatan\Learnings\KevinDocxxx\OldKevOAuthIS\02\demos\start-end\src\ImageGallery.Model\bin\Debug\netstandard1.6\ImageGallery.Model.deps.json
-D:\Data\Vatan\Learnings\KevinDocxxx\OldKevOAuthIS\02\demos\start-end\src\ImageGallery.Model\bin\Debug\netstandard1.6\ImageGallery.Model.dll
-D:\Data\Vatan\Learnings\KevinDocxxx\OldKevOAuthIS\02\demos\start-end\src\ImageGallery.Model\bin\Debug\netstandard1.6\ImageGallery.Model.pdb
-D:\Data\Vatan\Learnings\KevinDocxxx\OldKevOAuthIS\02\demos\start-end\src\ImageGallery.Model\obj\Debug\netstandard1.6\ImageGallery.Model.csprojAssemblyReference.cache
-D:\Data\Vatan\Learnings\KevinDocxxx\OldKevOAuthIS\02\demos\start-end\src\ImageGallery.Model\obj\Debug\netstandard1.6\ImageGallery.Model.csproj.CoreCompileInputs.cache
-D:\Data\Vatan\Learnings\KevinDocxxx\OldKevOAuthIS\02\demos\start-end\src\ImageGallery.Model\obj\Debug\netstandard1.6\ImageGallery.Model.AssemblyInfoInputs.cache
-D:\Data\Vatan\Learnings\KevinDocxxx\OldKevOAuthIS\02\demos\start-end\src\ImageGallery.Model\obj\Debug\netstandard1.6\ImageGallery.Model.AssemblyInfo.cs
-D:\Data\Vatan\Learnings\KevinDocxxx\OldKevOAuthIS\02\demos\start-end\src\ImageGallery.Model\obj\Debug\netstandard1.6\ImageGallery.Model.dll
-D:\Data\Vatan\Learnings\KevinDocxxx\OldKevOAuthIS\02\demos\start-end\src\ImageGallery.Model\obj\Debug\netstandard1.6\ImageGallery.Model.pdb
